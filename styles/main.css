@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#header,
+#store {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 1px 0;
+}
+
+#header {
+  background-image: url("../images/Blueprints.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-color: #176a90;
+  height: 90vh;
+}
+
+#header h1 {
+  text-align: center;
+  color: white;
+  position: relative;
+  font-size: 4em;
+  font-family: "Bungee", cursive;
+  font-weight: normal;
+}
+
+#store {
+  background-color: #00122e;
+
+  height: 90vh;
+}
